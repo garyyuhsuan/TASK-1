@@ -217,11 +217,15 @@
 
       .page__more {
         width: 20%;
-        padding: 16px;
         border: 1px solid #eaf0ed;
-        img {
-          width: 28px;
-          vertical-align: middle;
+
+        a {
+          display: block;
+          padding: 16px;
+          img {
+            width: 28px;
+            vertical-align: middle;
+          }
         }
       }
 
@@ -234,6 +238,7 @@
         background-color: #3f5d45;
         border: 1px solid #3f5d45;
         text-align: center;
+        display: block;
       }
 
       .page__index {
@@ -244,6 +249,7 @@
         color: #3f5d45;
         border: 1px solid #eaf0ed;
         text-align: center;
+        display: block;
       }
     }
   }
